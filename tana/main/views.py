@@ -22,3 +22,6 @@ def Кабинет(request):
     return render(request, 'main/Кабинет.html')
 
 
+def index(request):
+    return render(request, 'main/index.html')
+
