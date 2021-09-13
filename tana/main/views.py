@@ -20,3 +20,5 @@ def Контакты(request):
 
 def Кабинет(request):
     return render(request, 'main/Кабинет.html')
+
+
